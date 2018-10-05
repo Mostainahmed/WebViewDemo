@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="mostain.albbla.com.organictokra.WebFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"/>
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:indeterminate="true"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:mk_type="Whirlpool"
+        android:visibility="gone"
+        app:mk_color="@color/colorLoader" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrgs!!! No Internet Connection!!!"
+        android:id="@+id/problemText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

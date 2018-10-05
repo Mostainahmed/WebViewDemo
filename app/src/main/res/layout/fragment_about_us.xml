@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f7f7f7"
+    android:layout_height="match_parent"
+    tools:context="mostain.albbla.com.organictokra.AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageabout"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/mobilelogo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageabout"
+        android:layout_margin="16dp"
+        android:textSize="26sp"
+        android:text="Contact Us:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        android:id="@+id/contact"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:layout_margin="4dp"
+        android:textSize="20sp"
+        android:text="zonepop39@gmail.com"
+        android:textStyle="bold"
+        android:id="@+id/contacttext"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        />
+
+
+
+</RelativeLayout>
